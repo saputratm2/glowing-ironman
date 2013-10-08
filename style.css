@@ -24,13 +24,31 @@
     66% {opacity: 0.0;}
 }
 
+@-webkit-keyframes carousel1 {
+    0%, 100% {opacity: 1.0;}
+    33% {opacity: 0.0;}
+    66% {opacity: 0.0;}
+}
+
 @keyframes carousel2 {
     0%, 100% {opacity: 0.0;}
     33% {opacity: 1.0;}
     66% {opacity: 0.0;}
 }
 
+@-webkit-keyframes carousel2 {
+    0%, 100% {opacity: 0.0;}
+    33% {opacity: 1.0;}
+    66% {opacity: 0.0;}
+}
+
 @keyframes carousel3 {
+    0%, 100% {opacity: 0.0;}
+    33% {opacity: 0.0;}
+    66% {opacity: 1.0;}
+}
+
+@-webkit-keyframes carousel3 {
     0%, 100% {opacity: 0.0;}
     33% {opacity: 0.0;}
     66% {opacity: 1.0;}
