@@ -1,5 +1,9 @@
 #carousel img:nth-child(1) {
     opacity: 1.0;
+    -webkit-transform: translateX(87px);
+    -moz-transform: translateX(87px);
+    -ms-transform: translateX(87px);
+    -o-transform: translateX(87px);
     transform: translateX(87px);
     animation:carousel1 6s infinite;
     -webkit-animation:carousel1 6s infinite; /* Safari and Chrome */
@@ -13,6 +17,10 @@
 
 #carousel img:nth-child(3) {
     opacity: 0.0;
+    -webkit-transform: translateX(-87px);
+    -moz-transform: translateX(-87px);
+    -ms-transform: translateX(-87px);
+    -o-transform: translateX(-87px);
     transform: translateX(-87px);
     animation:carousel3 6s infinite;
     -webkit-animation:carousel3 6s infinite; /* Safari and Chrome */
