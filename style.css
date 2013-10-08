@@ -1,0 +1,38 @@
+#carousel img:nth-child(1) {
+    opacity: 1.0;
+    transform: translateX(87px);
+    animation:carousel1 6s infinite;
+    -webkit-animation:carousel1 6s infinite; /* Safari and Chrome */
+}
+
+#carousel img:nth-child(2) {
+    opacity: 0.0;
+    animation:carousel2 6s infinite;
+    -webkit-animation:carousel2 6s infinite; /* Safari and Chrome */
+}
+
+#carousel img:nth-child(3) {
+    opacity: 0.0;
+    transform: translateX(-87px);
+    animation:carousel3 6s infinite;
+    -webkit-animation:carousel3 6s infinite; /* Safari and Chrome */
+}
+
+@keyframes carousel1 {
+    0%, 100% {opacity: 1.0;}
+    33% {opacity: 0.0;}
+    66% {opacity: 0.0;}
+}
+
+@keyframes carousel2 {
+    0%, 100% {opacity: 0.0;}
+    33% {opacity: 1.0;}
+    66% {opacity: 0.0;}
+}
+
+@keyframes carousel3 {
+    0%, 100% {opacity: 0.0;}
+    33% {opacity: 0.0;}
+    66% {opacity: 1.0;}
+}
+
